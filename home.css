@@ -1,0 +1,204 @@
+@font-face{
+    font-family: Kajiro;
+    src: url('./Fonts/Kajiro\ Bold.ttf');
+}
+
+@font-face {
+    font-family: Neue;
+    src: url('./Fonts/NeueMachina-Regular.e896c98c.ttf');
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+.back{
+    height: 100vh;
+    width: 100vw;
+}
+
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.top{
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+}
+
+.working{
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1920px;
+    height: 100%;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.nleft, .nright{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a{
+    pointer-events: all;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    /* font-family: "gilroy"; */
+}
+
+.working .nav img{
+    height: 50px;
+    width: fit-content;
+}
+
+.banner{
+    position: absolute;
+    /* height: 100%; */
+    top: 50%;
+    left: 0;
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, -50%);
+    /* background-color: red; */
+}
+
+.bleft{
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+}
+
+.bleft .ele{
+    height: 9vw;
+    overflow: hidden;
+}
+.bleft h1{
+    margin: 0;
+    font-family: 'Kajiro';
+    font-size: 10vw;
+    color: #fff;
+    font-weight: 100;
+    line-height: 0.9;
+}
+
+.bleft button{
+    margin-top: 2vw;
+    padding: 0.5vw 2vw;
+    font-family: "Kajiro";
+    font-size: 2vw;
+    font-weight: 100;
+    cursor: pointer;
+    letter-spacing: 3px;
+    pointer-events: all;
+    border: none;
+}
+
+.bright{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* height: 100px; */
+    /* background-color: rgb(93, 106, 206); */
+    color: #fff;
+    font-family: "gilroy";
+    
+}
+
+.bright p{
+    text-align: right;
+    font-size: 0.7rem;
+    font-weight: 300;
+    font-family: "gilroy";
+    /* margin-bottom: 4vh; */ 
+}
+
+.bright p:nth-child(3){
+    margin-bottom: 4vh;
+}
+
+.bright .img{
+    width: 100%;
+    height: 150px;
+    background-image: url('https://media.istockphoto.com/id/1342849839/photo/beautiful-afro-woman-with-pigtails-and-stylish-clothes.webp?b=1&s=170667a&w=0&k=20&c=RV0HexrtzJmjLsHSWMpPBvyiBdJvTapc5ReUvqtSYwQ=');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border-radius: 20px;
+}
+/* 
+.effect{
+    text-transform: uppercase;
+    width: 100%;
+    height: fit-content;
+    margin: 10vh;
+    position: relative;
+}
+
+.elem{
+    height: 10vh;
+    width: 80%;
+    margin-top: 4vh; 
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative; 
+}
+
+.elem h1{
+    height: 100%;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 6vh;
+}
+
+.elem .elemima{
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all linear 200ms;
+}
+
+ */
